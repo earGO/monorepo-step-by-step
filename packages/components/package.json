@@ -1,0 +1,21 @@
+{
+  "name": "@project/components",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "main:src": "src/index.js",
+  "dependencies": {
+    "@ursip/design-system": "^1.1.0",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset": "^1.0.15",
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.3.2"
+  },
+  "workspaces": {
+    "nohoist": [
+      "**/webpack-dev-server",
+      "**/babel-loader",
+      "**/react-scripts", "**/react-scripts/**"
+    ]
+  }
+}
